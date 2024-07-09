@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+<body>
+    <div id="control-bar-wrapper">
+        <div id="control-bar">
+          <button id="sound-toggle" class="toggle" type="button" data-toggled="false" onClick="handleSoundToggle()" title="Toggle Pulse">
+            <p class="btn-load"><i class="fa-solid fa-music on"></i></p>
+          </button>
+        </div>
+      </div>
+      
+      <div id="background-image"></div>
+      
+      <div id="background-filter"></div>
+      
+      <div id="logo">
+        <i class="fas fa-heart spotify-icon"></i>
+      </div>
+      
+      <div id="sound-message">
+        <p>Click anywhere to toggle sound</p>
+      </div>
+      
+      <canvas id="paper"></canvas>
+
+      <script src="main.js"></script>
+</body>
+</html>
